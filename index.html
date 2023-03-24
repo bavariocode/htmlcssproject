@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>My little HTML cheetsheat.</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <img src="data:image/png;base64,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" alt="The CSS logo">
+        </div>
+        
+        <ul>
+            <li><a href="#comments"><strong>Comments</strong></a></li>
+            <li><a href="#properties"><strong>Properties</strong></a></li>
+            <li style="margin-left:2em"><a href="#definition">Definition</a></li>
+            <li style="margin-left:2em"><a href="#definition">Defining many properties</a></li>
+            <li style="margin-left:2em"><a href="#padding">Padding</a></li>
+            <li style="margin-left:2em"><a href="#margin">Margin</a></li>
+            <li style="margin-left:2em"><a href="#fontfamily">Font family</a></li>
+            <li><a href="#selectors"><strong>Selectors</strong></a></li>
+            <li style="margin-left:2em"><a href="#classnameselectors">Class name selectors</a></li>
+            <li style="margin-left:2em"><a href="#elementselectors">Element selectors</a></li>
+            <li style="margin-left:2em"><a href="#idselectors">ID selectors</a></li>
+            <li style="margin-left:2em"><a href="#attributeselectors">Attribute selectors</a></li>
+            <li style="margin-left:2em"><a href="#childselectors">Child selectors</a></li>
+            <li style="margin-left:2em"><a href="#universalselectors">Universal selectors</a></li>
+            <li style="margin-left:2em"><a href="#pseudoclassselectors">Pseudo class selectors</a></li>
+        </ul>
+        <p style="margin-left:1em"><a href="#glossary">Go back to top</a></p>
+    </div>
+    <div class="main">
+   
+    <header>
+        <div id="source">Created by: Markus Schmidl <br><br> Project as part of the Codecademy Full Stack Developer Course , based on <a href="https://www.codecademy.com/article/glossary-css">Codecademy CSS Glossary</a></div>
+        <h1 id="glossary">CSS Glossary</h1>
+        <p>Programming reference for CSS covering Comments, Properties, and Selectors</p>  
+        
+            
+        
+    </header>
+        <section id="comments">
+            <h2>Comments</h2>
+            <p>Comments in CSS are signified by a forward-slash and asterisk.</p>
+            <h4>Example</h4>
+            <div class="code_block">
+                <p class="comment">/* This is a single line comment */</p>
+                
+            </div>
+            <h4>Example</h4>
+            <div class="code_block">
+                <p class="comment">/* This<br>is a multi-line<br> comment */</p>
+            </div>
+        </section>
+        <section id="properties">
+            <h2>Properties</h2>
+            <h3 id="definition">Definition</h3>
+            <p>Properties are defined within selectors by defining a property and a value. They are separated with a colon and delineated with a semi-colon.</p>
+            <h4>Syntax</h4>
+            <div class="code_block">
+                <p><span class="selector">selector</span> {<br><span class="property">&nbsp;&nbsp;property:</span> value;<br> }</p>
+            </div>
+            <h4>Example</h4>
+            <div class="code_block">
+                <p><span class="selector">h1</span> {<br><span class="property">&nbsp;&nbsp;color:</span> blue;<br> }</p>
+            </div>
+            <h4>Read more</h4>
+            <p><ul><li><a href="http://www.htmldog.com/reference/cssproperties/">http://www.htmldog.com/reference/cssproperties/</a></li></ul></p>
+            <h3 id="definingmanyproperties">Defining many properties</h3>
+            <p>Each CSS rule can have as many properties as you like. Each of them applies to the elements that the selector applies to.</p>
+            <h4>Example</h4>
+            <div class="code_block">
+                <p><span class="selector">h1</span> {<br><span class="property">&nbsp;&nbsp;font-size:</span> 24px;<br>
+                    <span class="property">&nbsp;&nbsp;font-weight:</span> bold;<br>
+                    <span class="property">&nbsp;&nbsp;border:</span> 1px solid black;<br>
+                    <span class="property">&nbsp;&nbsp;color:</span> pink;<br>}<br>
+                    <span class="comment">/* This will make all &lt;h1&gt; headers big, bold, pink, and sinside of a thin black rectangle */ </h1></span>
+                </p>
+            </div>
+            <h3 id="padding">Padding</h3>
+            <p>The padding is the spacing between the content and the border (edge of the element.). We can adjust this value with CSS to move the border closer to or farther from the content. Here, the div with id ‘box’ will get 10px of padding all around it.</p>
+            <h4>Example</h4>
+            <div class="code_block">
+                <p><span class="selector">#box</span> {<br><span class="property">&nbsp;&nbsp;padding:</span> 10px;<br>}
+            </div>
+            <h3 id="margin">Margin</h3>
+            <p>The margin is the space around the element. The larger the margin, the more space between our element and the elements around it. We can adjust the margin to move our HTML elements closer to or farther from each other. Here, the div with id ‘box’ will get 10px of margin above and below it, and 5px of margin to the left and right.</p>
+            <h4>Example</h4>
+            <div class="code_block">
+                <p><span class="selector">#box</span> {<br><span class="property">&nbsp;&nbsp;margin:</span> 10px 5px 10px 5px;<br>}
+            </div>
+            <h3 id="fontfamily">font-family</h3>
+            <p>The font-family property sets the font of an HTML element’s text.</p>
+            <h4>Syntax</h4>
+            <div class="code_block">
+                <p><span class="selector">p</span> {<br><span class="property">&nbsp;&nbsp;font-family:</span> Arial, Helvetica, sans-serif;<br>}
+            </div>
+        </section>
+        <section id="selectors">
+            <h2>Selectors</h2>
+            <p>What are selectors?<br><br>
+                Selectors are used in CSS to select the parts of the HTML that are being styled. You can use several different methods for selecting an element.</p>
+            <h4>Syntax</h4>
+            <div class="code_block">
+                <p><span class="selector">selector</span> {
+                    <br>&nbsp;&nbsp;rules;
+                    <br>&nbsp;&nbsp;rules;
+                    <br>&nbsp;&nbsp;rules;<br>}
+            </div>
+            <h4>Read more</h4>
+            <p><ul><li><a href="https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/">https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/</a></li></ul></p>
+            <h3 id="classnameselectors">Class name selector</h3>
+            <p>You can also select HTML elements by their Class name. Unlike ID selectors, Class selectors select all elements with a matching class.</p>
+            <h4>Example</h4>
+            <div class="code_block">
+                <p><span class="selector">a.link</span> {<br><span class="property">&nbsp;&nbsp;font-size:</span> 12px;<br>}<br>
+                    <span class="comment">/* HTML Selected: &lt;a href="http://google.com" class="link"&gt;,<br> &lt;a ref="http://codecademy.com" class="link jumbo"&gt; */</span>
+                </p>
+            </div>
+            <h4>Example</h4>
+            <div class="code_block">
+                <p><span class="selector">.jumbo</span> {<br><span class="property">&nbsp;&nbsp;text-size:</span> 1000px;<br>}<br>
+                    <span class="comment">/* HTML Selected: &lt;a href="http://codecademy.com" class="link jumbo"&gt;,<br>
+                        &lt;span class="jumbo"&gt; */</span>
+                </p>
+            </div>
+            <h3 id="elementselectors">Element selectors</h3>
+            <p>You are able to select HTML elements first by simply using the name of the element.</p>
+            <h4>Example</h4>
+            <div class="code_block">
+                <p><span class="selector">body</span> {<br><span class="property">&nbsp;&nbsp;background-color:</span> #333;<br> }</p>
+            </div>
+            <h4>Example</h4>
+            <div class="code_block">
+                <p><span class="selector">h1</span> {<br><span class="property">&nbsp;&nbsp;color:</span> blue;<br> }</p>
+            </div>
+            <h4>Example</h4>
+            <div class="code_block">
+                <p><span class="selector">a</span> {<br><span class="property">&nbsp;&nbsp;text-underline:</span> none;<br> }</p>
+            </div>
+            <h3 id="idselectors">ID selectors</h3>
+            <p>ID selectors are used to select only a single item on a page. Like the term (“identification”) indicates, ID selectors will ONLY select the first element with a matching ID.</p>
+            <h4>Example</h4>
+            <div class="code_block">
+                <p><span class="selector">#thatThingINeededToStyle</span> {<br><span class="property">&nbsp;&nbsp;color:</span> blue;<br>
+                    <span class="property">&nbsp;&nbsp;font-size:</span> 24px;<br>}<br>
+                    <span class="comment">/* HTML Selected: &lt;span id="thatThingINeededToStyle"&gt; */</span>
+                </p>
+            </div>
+            <h4>Example</h4>
+            <div class="code_block">
+                <p><span class="selector">a#codecademy</span> {<br><span class="property">&nbsp;&nbsp;color:</span> purple;<br>}<br>
+                    <span class="comment">/* HTML Selected: &lt;a href="http://codecademy.com" id="codecademy"&gt; */</span>
+                </p>
+            </div>
+            <h3 id="attributeselectors">Attribute selectors</h3>
+            <p>HTML elements are also able to be selected by their attributes.</p>
+            <h4>Example</h4>
+            <div class="code_block">
+                <p><span class="selector">a[href="http://codecademy.com"]</span> {<br><span class="property">&nbsp;&nbsp;color:</span> purple;<br>}<br>
+                    <span class="comment">/* HTML Selected: &lt;a href="http://codecademy.com"&gt; */</span>
+                </p>
+            </div>
+            <h4>Example</h4>
+            <div class="code_block">
+                <p><span class="selector">input[type='text]</span> {<br><span class="property">&nbsp;&nbsp;width:</span> 100px;<br>}<br>
+                    <span class="comment">/* HTML Selected: &lt;input type="text"&gt; */</span>
+                </p>
+            </div>
+            <h4>Example</h4>
+            <div class="code_block">
+                <p><span class="selector">input[required]</span> {<br><span class="property">&nbsp;&nbsp;border:</span> 1px red solid;<br>}<br>
+                    <span class="comment">/* HTML Selected: &lt;input type="text" required&gt; */</span>
+                </p>
+            </div>
+            <h4>Read more</h4>
+            <p><ul><li><a href="http://dev.opera.com/articles/view/27-css-basics/#attribute">http://dev.opera.com/articles/view/27-css-basics/#attribute</a></li></ul></p>
+            <h3 id="childselectors">Child selectors</h3>
+            <p>You can also use multiple selectors to get the exact elements you want, by using parental nesting. By using the “greater-than” symbol (>), you can select only the direct children of an element, going down only one level.</p>
+            <h4>Example</h4>
+            <div class="code_block">
+                <p><span class="selector">ul > li</span> {<br><span class="property">&nbsp;&nbsp;display:</span> inline-block;<br><br>
+                    <span class="comment">/* Selects only the first-level list items in all unordered lists in the HTML */ </h1></span>
+                </p>
+            </div>
+            <h4>Example</h4>
+            <div class="code_block">
+                <p><span class="selector">ul a</span> {<br><span class="property">&nbsp;&nbsp;text-underline:</span> none;<br><br>
+                    <span class="comment">/* Selects all anchors which have an unordered list their ancestry */ </h1></span>
+                </p>
+            </div>
+            <h4>Example</h4>
+            <div class="code_block">
+                <p><span class="selector">ul + span</span> {<br><span class="property">&nbsp;&nbsp;display:</span> inline;<br><br>
+                    <span class="comment">/* Selects only spans that directly follow and unordered list */ </h1></span>
+                </p>
+            </div>
+            <h4>Example</h4>
+            <div class="code_block">
+                <p><span class="selector">a ~ h1</span> {<br><span class="property">&nbsp;&nbsp;color:</span> blue;<br><br>
+                    <span class="comment">/* Selects all h1 elements that are in the general vicinity of an anchor */ </h1></span>
+                </p>
+            </div>
+            <h4>Read more</h4>
+            <p><ul><li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Descendant_selectors">https://developer.mozilla.org/en-US/docs/Web/CSS/Descendant_selectors</a></li></ul></p>
+            <h3 id="universalselectors">Universal selector</h3>
+            <p>The universal selector (*) may be used to select all the elements in a particular range. Be aware that the universal selector is the most performance taxing selector, and should be used sparingly.</p>
+            <h4>Example</h4>
+            <div class="code_block">
+                <p><span class="selector">*</span> {<br><span class="property">&nbsp;&nbsp;background-color:</span> blue;<br><br>
+                    <span class="comment">/* Selects all HTML elements in the page */ </h1></span>
+                </p>
+            </div>
+            <h4>Example</h4>
+            <div class="code_block">
+                <p><span class="selector">body *</span> {<br><span class="property">&nbsp;&nbsp;color:</span> red;<br><br>
+                    <span class="comment">/* Selects ALL children of the body */ </h1></span>
+                </p>
+            </div>
+            <h4>Example</h4>
+            <div class="code_block">
+                 <p><span class="selector">div > *</span> {<br><span class="property">&nbsp;&nbsp;color:</span> red;<br><br>
+                    <span class="comment">/* Selects ALL first-level children of all divs on the page */ </h1></span>
+                </p>
+            </div>
+            <h4>Read more</h4>
+            <p><ul>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Universal_selectors">https://developer.mozilla.org/en-US/docs/Web/CSS/Universal_selectors</a></li>
+                <li><a href="http://www.stevesouders.com/blog/2009/06/18/simplifying-css-selectors/">http://www.stevesouders.com/blog/2009/06/18/simplifying-css-selectors/</a></li>
+                <li><a href="http://dev.opera.com/articles/view/27-css-basics/#universal">http://dev.opera.com/articles/view/27-css-basics/#universal</a></li>
+               </ul>
+            </p>
+            <h3 id="pseudoclassselectors">Pseudo class selector</h3>
+            <p>Pseudo Selectors can be used to narrow down a selection with certain rules.</p>
+            <h4>Example</h4>
+            <div class="code_block">
+                <div class="code_block">
+                    <p><span class="selector">li:first-child</span> {<br><span class="property">&nbsp;&nbsp;color:</span> red;<br>}<br><br>
+                       <span class="comment">/* <br> 
+                        &nbsp;&nbsp;&nbsp;This selects only &lt;li&gt; elements that have no elements before them <br> 
+                        &nbsp;&nbsp;&nbsp;&lt;ul&gt;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Selected; will be red&lt;/li&gt;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Not selected&lt;/li&gt;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Not selected&lt;/li&gt;<br>
+                        &nbsp;&nbsp;&nbsp;&lt;ul&gt;<br>
+                        */ <br><br></p>
+                    <p><span class="selector">li:last-child</span> {<br><span class="property">&nbsp;&nbsp;color:</span> red;<br>}<br><br>
+                    <span class="comment">/* This does the opposite; only the last &lt;li&gt; will be red. <br> 
+                    </p>
+               </div>
+            </div>
+            <h4>Example</h4>
+            <div class="code_block">
+                <p><span class="selector">a:hover</span> {<br><span class="property">&nbsp;&nbsp;text-decoration:</span> underline;<br>}<br><br>
+                    <span class="comment">/* Will underline all links when the user puts their mouse over them */ <br><br></p>
+                 <p><span class="selector">a:active</span> {<br><span class="property">&nbsp;&nbsp;font-weight:</span> bold;<br>}<br><br>
+                 <span class="comment">/* Will make all links bold while the user is clicking on them */<br> 
+                 </p>
+            </div>
+            <h4>Read more</h4>
+            <p><ul>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes">https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes</a></li>
+                <li><a href="http://dev.opera.com/articles/view/27-css-basics/#pseudoclasses">http://dev.opera.com/articles/view/27-css-basics/#pseudoclasses</a></li>
+               </ul>
+            </p>
+        </section>
+
+    <footer><p>Want to dive deeper into CSS? Check out <a href="https://www.codecademy.com/learn/learn-css">Codecademy's CSS course</a>.</p>
+        </footer>
+
+    </div>
+</body>
+
+</html>
